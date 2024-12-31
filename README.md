@@ -1,13 +1,34 @@
-# Alchemy Tycoon 
+# Sophie's Project Template
 
-Create potions, sell them, upgrade!
+This is a template I use to begin my projects, mainly so I don't have to spend a day writing the same stuff again.
 
-Unleash your inner alchemist where you create new potions, unlock new recipes and upgrade your fortress!
+# NOTE: THIS PROJECT IS ADAPTED FOR MY USE
 
-Are you willing to endure the magical adventure?
+However, feel free to edit it and fork how you want.
 
-# Building 
+# Installation
 
-No need to build, game.rbxl holds all the progress - you may just need to rojo sync.
+Note: This installation uses Bash, for windows you need to use a Git Bash CLI 
 
-# Copyright iSophes All Rights Reserved.
+Note: Not all tools will be installed here, some tools are required, such as Git, Rokit and wally-package-types 
+
+1. Clone the repo
+
+```sh
+git clone https://github.com/isophes/RBLX-Template && cd RBLX-Template
+```
+
+2. Edit "install-packages.sh" to point wally-package-types to where you
+have wally-package types
+
+3. Install packages
+
+```sh
+rokit install && sh install-packages.sh
+```
+
+4. Build place and serve!
+
+```sh
+rojo build -o game.rbxl && rojo serve
+```
