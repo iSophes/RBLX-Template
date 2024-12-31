@@ -1,0 +1,20 @@
+[package]
+name = "me/template"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+
+## Most dependencies are not used at the moment in this template, however I just have them here for future ref as I'll most likely end up using them
+
+Promise = "howmanysmall/typed-promise@4.0.3"
+Lapis = "nezuo/lapis@0.3.3"
+Fusion = "elttob/fusion@0.3.0"
+Warp = "imezx/warp@1.0.13"
+Trove = "sleitnick/trove@1.4.0"
+Signal = "sleitnick/signal@2.0.1"
+t = "osyrisrblx/t@3.1.1"
+Sift = "csqrl/sift@0.0.9"
+Component = "sleitnick/component@2.4.8"
+FunctionLib = "isophes/functionlib@0.1.0"

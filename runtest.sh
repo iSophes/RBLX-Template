@@ -1,0 +1,1 @@
+lune run Tests/TestInit.luau
